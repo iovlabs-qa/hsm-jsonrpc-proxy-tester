@@ -1,4 +1,4 @@
-# PascalCoin JSONRPC HTTP proxy
+# HSM JSONRPC HTTP proxy Tester
 
 A simple HTTP proxy server in NodeJS for the JSON-RPC API of [PascalCoin](https://www.pascalcoin.org).
 
@@ -8,19 +8,13 @@ It allows to add the following functionalities:
  - HTTP Basic Authentication
  - SSL
 
-It uses [http://expressjs.com/](http://expressjs.com/) and can easily be 
-extended with more functionalities if you fork the repo.
-
-Donations in form of PascalCoin welcome! PASA `55033-26`.
-
-License: MIT, see [LICENSE](/techworker/pascalcoin-rpc-proxy/LICENSE).
 
 ## Installation
 
 Clone the repository:
 
 ```
-git clone https://www.github.com/techworker/pascalcoin-jsonrpc-proxy
+git clone https://github.com/iovlabs-qa/hsm-jsonrpc-proxy-tester
 ```
 
 Copy the `config.js.dist` to `config.js`.
